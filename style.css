@@ -1,0 +1,23 @@
+.logo {
+    width: 191px;
+    height: 87px;
+}
+
+.wrapper-nav {
+    width: 95%;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.main-nav {
+    height: 90px;
+}
+
+.nav-item {
+    padding-right: 15px; 
+}
+
+.nav-home a {
+    border-bottom: 1px solid #ce6451;
+}
