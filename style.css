@@ -1,10 +1,19 @@
+.wrapper {
+    background-image: url('https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-agency-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
 .logo {
     width: 191px;
     height: 87px;
 }
 
 .wrapper-nav {
-    width: 95%;
+    width: 70%;
     font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     font-size: 13px;
