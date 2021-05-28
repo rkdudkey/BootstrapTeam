@@ -14,6 +14,12 @@
     top: 0;
 }
 
+/*Nav bar*/
+
+.fix-header {
+    background-color: black;
+}
+
 .logo {
     width: 191px;
     height: 87px;
@@ -26,8 +32,13 @@
     font-size: 13px;
 }
 
-.main-nav {
+/*1*/
+#main-nav {
     height: 90px;
+}
+
+.nav-active {
+    background-color:rgb(19, 18, 18);
 }
 
 .nav-item {
@@ -83,14 +94,14 @@
 .select {
     height: 40px;
 }
+/*Fix Navbar*/
 
 /*banner section*/
 .wrapper-banner {
     width: 75%;
-}
-.banner-head {
     height: 100vh;
 }
+
 .banner {
    font-size: 60px;  
    font-family: big-caslon-fb,serif;
@@ -99,5 +110,22 @@
     line-height: 1.5;
 }
 
+.wrapper-client {
+    background-image: url('https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg');
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
 
+.pic-slide{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .pic-slide img{
+    width: 150px;
+    height:150px;
+  }
+ 
+  
+ 
 
