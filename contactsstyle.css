@@ -1,0 +1,225 @@
+.wrapper {
+    background-image: url('https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    position: fixed;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+    margin: 0;
+}
+
+.wrapper-client {
+    background-image: url("https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg");
+    position: absolute;
+    min-height: 50px;
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+   
+}
+/*Nav bar*/
+
+.fix-header {
+    background-color: black;
+}
+
+.logo {
+    width: 191px;
+    height: 87px;
+}
+
+.wrapper-nav {
+    width: 80%;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/*1*/
+#main-nav {
+    height: 90px;
+}
+
+.nav-active {
+    background-color:rgb(19, 18, 18);
+    margin: 0;
+}
+
+.nav-item {
+    padding-right: 15px; 
+}
+
+.nav-home a {
+    position: relative;
+}
+
+.nav-link-v1 a:hover, .dropdown:hover{
+    border-bottom: 2px solid #ce6451;
+}
+
+.nav-home a::after {
+    border-bottom: 2px solid #ce6451;
+    position: absolute;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 50px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #5c7c91;
+    transition-duration: 1s
+} 
+
+.dropdown {
+    margin: 0;
+}
+
+.dropdown-menu  {
+    margin: 0;
+    display: none;
+    background-color: #212326;
+    padding: 0;
+    font-size: 13px;
+    position: absolute;
+    border-top: 2px solid #ce6451;
+    transition-duration: 1s;
+    top: calc(100% + 1px);
+}
+
+
+.dropdown:hover .dropdown-menu, .dropdown-menu:hover{
+    display: block;
+}
+
+.select {
+    height: 40px;
+}
+/*Fix Navbar*/
+
+/*banner section*/
+.wrapper-banner {
+    width: 75%;
+    height: 100vh;
+}
+
+.banner {
+   font-size: 60px;  
+   font-family: big-caslon-fb,serif;
+    font-weight: 400;
+    text-transform: none !important;
+    line-height: 1.5;
+}
+
+  
+/*Section 1*/
+.section-1 {
+    width: 100%;
+    background-color: #f4eae9;
+}
+.section-title-1 /*'Locations'*/{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.section-box /*Cities*/{
+    font-family: 'Cardo', serif;
+    border: none;
+    width: 350px;
+    height: 100px;
+}
+
+.box-section-1 {
+    width: 365px;
+    font-family: -macosx,sans-serif !important;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0;
+    float: inline-start;
+}
+
+/*'Let's create together. Contact Us Section'*/
+.statement {
+    width: 90%;
+}
+
+/* contact section*/
+form {
+    font-family: -macosx,sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    letter-spacing: 1px !important;
+}
+
+form input{
+    background-color: #ebebeb !important;
+}
+
+form textarea {
+    background-color: #ebebeb !important;
+}
+
+form button {
+    background: 0 0 !important;
+    border: 1px solid black !important;
+    color: black !important;
+    text-transform: uppercase !important;
+    font-family: -macosx,sans-serif !important;
+    font-size: 14px !important;
+    letter-spacing: 1px !important;
+    border-radius: 0 !important;
+    max-width: 250px !important;
+    width: 100% !important;
+    padding: 16px 20px;
+}
+
+.text-contact-1 {
+    font-family: 'Cardo', serif; 
+}
+
+.footer-section {
+    background-color: #212326;
+}
+
+.footer-section {
+    background-color: #212326;
+}
+
+.footer-section-1{
+    width: 85%;
+}
+
+.img-team {
+    width: 200px;
+    height: 33px;
+    position: relative;
+    line-height: 1.7;
+    margin: 0px;
+}
+
+.img-tiny {
+    width: 200px;
+    height: 92px;
+
+}
+
+.contact-footer {
+    line-height: 2.0em;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #5c7c91;
+}
