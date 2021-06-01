@@ -1,0 +1,107 @@
+
+.jumbotron {
+	background-image:url('./assets/images/ENT-RETO.jpeg'); 
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: -40px;
+    background-attachment: fixed;
+    background-position:  center -238px;
+}
+
+.jumbotron h1 {
+	position: absolute;
+	top:18;
+	left:0;
+	padding-left: 20px;
+	color: #F7FAFE;
+}
+
+.imgfloat {
+	float: left;
+	padding: 15px; 
+  }
+
+p {
+	overflow: hidden;
+}
+
+.carousel-caption {
+	text-align: left;
+	font-size: small;
+	font-style: italic;
+}
+
+.carousel .carousel-item {
+	height: 700px;
+}
+  
+.carousel-item img {
+	position: absolute;
+    object-fit:cover;
+	top: 0;
+	left: 0;
+	min-height: 700px;
+}
+
+.experience {
+	background-color: #f4eae9;
+	color: #08090a;
+	margin-top: -30px;
+	font-family:'Raleway' 'sans-serif';
+	padding: 5% 5% ;
+	text-align: left;
+	position: center;	
+}
+
+.services, .example {
+	padding: 5% 5%;
+	
+}
+
+.services p {
+	font-family: 'Muli' 'sans-serif';
+	text-align: left;
+	color:#323232;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+.example {
+	color:whitesmoke;
+}
+
+.agt-bkg {
+	/* background-image: url("/assets/images/AGT-grad.jpeg"); */
+	background-image: url("https://tinyhorse.com/wp-content/uploads/2020/01/AGT-grad.jpg");
+	background-size: cover;
+	background-color: transparent;
+}
+
+footer {
+	background-color: #D64541;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+footer ul li {
+	list-style: none;
+	float: right;	
+}
+
+footer p {
+	float: left;
+}
+
+footer a,
+footer p {
+
+	color:#fff;
+	vertical-align: middle;
+}
+
+
+  
+
