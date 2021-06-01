@@ -1,3 +1,7 @@
+body {
+    overflow: auto; /* Hide scrollbars */
+  }
+
 .wrapper {
     background-image: url('https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-agency-header.jpg');
     -webkit-background-size: cover;
@@ -100,7 +104,7 @@
 
 /*banner section*/
 .wrapper-banner {
-    width: 75%;
+    min-width: 75%;
     
 }
 
