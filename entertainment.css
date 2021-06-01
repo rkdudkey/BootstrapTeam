@@ -1,14 +1,117 @@
 
+
 .jumbotron {
-	background-image:url('./assets/images/ENT-RETO.jpeg'); 
-    padding: 20%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    margin-top: -40px;
-    background-attachment: fixed;
-    background-position:  center -238px;
+		background-image: url('https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-agency-header.jpg');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		 background-size: cover;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		position: fixed;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		bottom: 0;
+		top: 0;
+		margin: 0;
 }
+
+.fix-header {
+    background-color: black;
+}
+
+.logo {
+    width: 191px;
+    height: 87px;
+}
+
+.wrapper-nav {
+    width: 80%;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/*1*/
+#main-nav {
+    height: 90px;
+}
+
+.nav-active {
+    background-color:rgb(19, 18, 18);
+    margin: 0;
+}
+
+.nav-item {
+    padding-right: 15px; 
+}
+
+.nav-home a {
+    position: relative;
+}
+
+.nav-link-v1 a:hover, .dropdown:hover{
+    border-bottom: 2px solid #ce6451;
+}
+
+.nav-home a::after {
+    border-bottom: 2px solid #ce6451;
+    position: absolute;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 50px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #5c7c91;
+    transition-duration: 1s
+} 
+
+.dropdown {
+    margin: 0;
+}
+
+.dropdown-menu  {
+    margin: 0;
+    display: none;
+    background-color: #212326;
+    padding: 0;
+    font-size: 13px;
+    position: absolute;
+    border-top: 2px solid #ce6451;
+    transition-duration: 1s;
+    top: calc(100% + 1px);
+}
+
+
+.dropdown:hover .dropdown-menu, .dropdown-menu:hover{
+    display: block;
+}
+
+.select {
+    height: 40px;
+}
+
+
+/*banner section*/
+.wrapper-banner {
+    width: 75%;
+    height: 100vh;
+}
+
+.banner {
+   font-size: 60px;  
+   font-family: big-caslon-fb,serif;
+    font-weight: 400;
+    text-transform: none !important;
+    line-height: 1.5;
+}
+
 
 .jumbotron h1 {
 	position: absolute;
@@ -79,27 +182,35 @@ p {
 	background-color: transparent;
 }
 
-footer {
-	background-color: #D64541;
-	position: absolute;
-	width: 100%;
-	height: auto;
+.footer-section {
+    background-color: #212326;
 }
 
-footer ul li {
-	list-style: none;
-	float: right;	
+.footer-section-1{
+    width: 85%;
 }
 
-footer p {
-	float: left;
+.img-team {
+    width: 200px;
+    height: 33px;
+    position: relative;
+    line-height: 1.7;
+    margin: 0px;
 }
 
-footer a,
-footer p {
+.img-tiny {
+    width: 200px;
+    height: 92px;
 
-	color:#fff;
-	vertical-align: middle;
+}
+
+.contact-footer {
+    line-height: 2.0em;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #5c7c91;
 }
 
 

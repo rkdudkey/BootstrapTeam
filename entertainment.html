@@ -12,49 +12,52 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
-      <!-- <img class="img-fluid" src="./assets/images/Tiny-Horse-logo-White-300x138.png" height='100' width='300' alt=""> -->
-      <img class="img-fluid" src="https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-logo-White-300x138.png"
-        height='100' width='300' alt="Tiny Horse">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown ">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            WORK
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="./entertainment.html">ENTERTAINMENT</a>
-            <a class="dropdown-item" href="#">AGENCY</a>
-            <a class="dropdown-item" href="#">BRAND PARTNERSHIPS</a>
+  <header class="wrapper position-relative">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-around sticky-top" id="main-nav">
+      <!--logo brand-->
+      <div class="row container-fluid wrapper-nav ">
+        <div class="col-md-6">
+          <a class="navbar" href="./index.html"><img class="logo"
+              src="https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-logo-White-300x138.png"
+              alt="tiny-house"></a>
+        </div>
+        <div class="col-md-6  ">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto nav-ul">
+              <li class="nav-item active nav-home">
+                <a class="nav-link font-weight-bold" href="#">Home</a>
+              </li>
+              <li class="nav-item active dropdown">
+                <a class="nav-link  font-weight-bold " href="#">Work</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item select  text-light d-flex align-items-center " href="./entertainment.html">Entertainment</a>
+                  <a class="dropdown-item select  text-light d-flex align-items-center" href="#">Agency</a>
+                  <a class="dropdown-item select  text-light d-flex align-items-center" href="#">Brands Partnerships</a>
+                </div>
+              </li>
+              <li class="nav-item active nav-link-v1">
+                <a class="nav-link font-weight-bold" href="#">About</a>
+              </li>
+              <li class="nav-item active nav-link-v1">
+                <a class="nav-link font-weight-bold" href="#">Careers</a>
+              </li>
+              <li class="nav-item active nav-link-v1">
+                <a class="nav-link font-weight-bold" href="#">Interns</a>
+              </li>
+              <li class="nav-item active nav-link-v1">
+                <a class="nav-link font-weight-bold" href="./contacts.html">Contacts</a>
+              </li>
+            </ul>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CAREERS </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">INTERNS </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacts.html">CONTACT </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
+        </div>
+      </div>
+    </nav>
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -175,22 +178,36 @@
     </div>
   </div>
 
-  <footer class="container-fluid">
-    <div class="row">
-      <div class="col-md-4">&copy; Good Coffee Co. 2021</div>
-      <div class="col-md-4">
-        <ul class="nav nav-pills">
-          <li><a href="#">Contact Us &#124; </a></li>
-          <li><a href="#">Get Support &#124; </a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
+  <footer class="container-fluid  footer-section pt-5 pb-5">
+    <div class="row footer-section-1 d-flex justify-content-center">
+      <div class="col-md-9 d-flex flex-row">
+        <div class="col-md-4 d-flex flex-column">
+          <img class="img-tiny" src="https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-logo-White-footer.png"
+            alt="tinyhouse">
+          <img class="img-team" src="https://tinyhorse.com/wp-content/uploads/2020/06/TeamWhistle.png"
+            alt="team part of">
+
+        </div>
+        <div class="col-md-4 pt-4 ">
+          <h6 class="text-light contact-footer pb-5">6121 SUNSET BLVD</h6>
+          <h6 class="text-light contact-footer pb-5">LOS ANGELES, CA 90028</h6>
+          <h6 class="text-light contact-footer pb-5">INFO@TINYHORSE.COM</h6>
+
+        </div>
+        <div class="col-md-4 pt-4 ">
+          <h6 class="text-light contact-footer pb-5">LOS ANGELES</h6>
+          <h6 class="text-light contact-footer pb-5">CHARLOTTE</h6>
+          <h6 class="text-light contact-footer pb-5">NEW YORK</h6>
+        </div>
       </div>
-      <div class="col-md-4">
-        <p class="text-right"><a href="#">Follow Us</a></p>
+      <div class="col-md-9 d-flex justify-content-md-between">
+        <span class="copyright"> © Copyright 2020 | Tiny Horse | Privacy Policy | Legal</span>
       </div>
     </div>
   </footer>
 
+
+  <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
