@@ -28,7 +28,7 @@
 
 .wrapper-nav {
     width: 80%;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', sans-serif, cursive;
     text-transform: uppercase;
     font-size: 13px;
 }

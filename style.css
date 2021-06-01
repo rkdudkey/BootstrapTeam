@@ -6,13 +6,13 @@
      background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    position: fixed;
     background-position: center center;
     width: 100%;
     height: 100%;
     bottom: 0;
     top: 0;
-    margin: 0;
+    overflow-wrap: break-word;
+    
 }
 
 /*Nav bar*/
@@ -101,7 +101,7 @@
 /*banner section*/
 .wrapper-banner {
     width: 75%;
-    height: 100vh;
+    
 }
 
 .banner {
@@ -113,11 +113,7 @@
 }
 
 .wrapper-client {
-    background-image: url('https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg');
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-   
+    background-image: url('https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg');  
 }
 
 .pic-slide{
@@ -141,13 +137,11 @@
 
 .section-box {
     border: 2px solid black;
-    width: 350px;
-    height: 100px;
+    height: 90px;
     
 }
 
 .box-section-1, .text-contact{
-    width: 365px;
     font-family: -macosx,sans-serif !important;
     font-style: normal;
     font-size: 14px;
@@ -164,6 +158,11 @@
     line-height: 2;
     font-size: 25px;
     margin-bottom: 1em;
+}
+
+.text-name {
+    position: absolute;
+    bottom: 0;
 }
 
 /* contact section*/
